@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+    <html>
+        <header>
+            <Title>To do app</Title>
+            <link rel="stylesheet" href="style.css">
+            <script src = "main.js" type = "text/javascript"></script>
+        </header>
+    
+        <body>
+        <h1>To do app</h1>
+        <input id = "new-list-item" type = "text" placeholder = "What do you need to do?">
+        <button onClick = "addListItem()">Add item</button>
+
+        <ul id ="todo-list">
+            <li id = "todo-list-item">
+                <input type = "checkbox" onclick = "toggleItem(this)">
+                <label>Go get groceries</label>
+                <button onclick = "deleteListItem(this)" class = "delete">X</button>
+            </li>
+        </ul>   
+        </body>
+         
+    </html>

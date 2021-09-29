@@ -1,0 +1,26 @@
+li{
+    list-style: none;
+}
+
+#todo-list{
+    padding:0;
+}
+#new-list-item{
+    width:300px;
+}
+
+#todo-list-item{
+    list-style: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width:300px;
+}
+.delete{
+    float:right;
+    cursor:grab;
+    border: solid 1px black;
+    background:white;
+}
+.complete {
+    text-decoration: line-through;
+    color: rgb(123, 123, 123)
+}
